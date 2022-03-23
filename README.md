@@ -1,7 +1,7 @@
 # SecondTaskAutomation
 Automiation of Codeshake's Second Task
 
-This is a web automation project.
+This is a website automation project.
 
 # Used technologies are:
 Java 
