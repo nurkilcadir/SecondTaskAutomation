@@ -16,27 +16,35 @@ public class CloudwisePage extends TestBase {
 	// Page Factory - OR
 
 	@FindBy(xpath = "//a[contains(text(), 'Dit is Cloudwise') and @class='sf-with-ul']")
-	WebElement ditIsCloudwiseMenu;
+	WebElement ditIsCloudwise;
 
-	@FindBy(xpath = "//li[@id='menu-item-6380']")
-	WebElement alleCloudwiserSubItem;
+	@FindBy(xpath = "//h3[text()='All Cloudwisers']")
+	WebElement alleCloudwiser;
 
+	@FindBy(xpath = "//span[text()='Meet our team']")
+	WebElement meetOurTeamBtn;
+	
 	// Initializing the Page Objects
 	public CloudwisePage() throws IOException {
 		PageFactory.initElements(driver, this);
 	}
 
 	// Actions
+	
+	public void clickDitIsCloudwise() throws IOException {
+		TestUtil.waitForElementToBeVisible(ditIsCloudwise);
+		ditIsCloudwise.click();
+}
+	
 
 	public AlleCloudwisersPage clickAlleCloudwisersBtn() throws InterruptedException, IOException {
 		
-		TestUtil.waitForElementToBeVisible(ditIsCloudwiseMenu);
-		actions.moveToElement(ditIsCloudwiseMenu).perform();
-		TestUtil.waitForElementToBeVisible(ditIsCloudwiseMenu);
-		actions.moveToElement(alleCloudwiserSubItem).perform();
-		alleCloudwiserSubItem.click();
-
+		TestUtil.scrollDown(alleCloudwiser);	
+		TestUtil.waitForElementToBeVisible(alleCloudwiser);
+		alleCloudwiser.click();
+		TestUtil.waitForElementToBeVisible(meetOurTeamBtn);
+		meetOurTeamBtn.click();
+		
 		return new AlleCloudwisersPage();
 	}
-
 }

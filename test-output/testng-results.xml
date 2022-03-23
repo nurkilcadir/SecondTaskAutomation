@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-23T17:19:03 TRT" name="Default suite" finished-at="2022-03-23T17:19:40 TRT" duration-ms="36262">
+  <suite started-at="2022-03-23T18:30:36 TRT" name="Default suite" finished-at="2022-03-23T18:31:12 TRT" duration-ms="36516">
     <groups>
     </groups>
-    <test started-at="2022-03-23T17:19:03 TRT" name="Default test" finished-at="2022-03-23T17:19:40 TRT" duration-ms="36262">
+    <test started-at="2022-03-23T18:30:36 TRT" name="Default test" finished-at="2022-03-23T18:31:12 TRT" duration-ms="36516">
       <class name="com.secondtask.testcases.CloudwisePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.secondtask.testcases.CloudwisePageTest@418e7838]" started-at="2022-03-23T17:19:03 TRT" name="setup" finished-at="2022-03-23T17:19:09 TRT" duration-ms="5842" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.secondtask.testcases.CloudwisePageTest@418e7838]" started-at="2022-03-23T18:30:36 TRT" name="setup" finished-at="2022-03-23T18:30:42 TRT" duration-ms="6137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickAlleCloudwisersPage()[pri:0, instance:com.secondtask.testcases.CloudwisePageTest@418e7838]" started-at="2022-03-23T17:19:09 TRT" name="clickAlleCloudwisersPage" finished-at="2022-03-23T17:19:39 TRT" duration-ms="30160" status="FAIL">
+        <test-method signature="clickAlleCloudwisersPage()[pri:0, instance:com.secondtask.testcases.CloudwisePageTest@418e7838]" started-at="2022-03-23T18:30:42 TRT" name="clickAlleCloudwisersPage" finished-at="2022-03-23T18:31:12 TRT" duration-ms="30170" status="FAIL">
           <exception class="org.openqa.selenium.json.JsonException">
             <message>
               <![CDATA[java.lang.reflect.InvocationTargetException
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'Nurs-MacBook-Pro.local', ip: 'fe80:0:0:0:801:f43b:81c0:b388%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d1772f8e318ff682360ef1c66303478b, actions {actions=[org.openqa.selenium.interactions.Sequence@4d499d65]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/sg/jzd_68rs71d...}, goog:chromeOptions: {debuggerAddress: localhost:53608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53608/devtoo..., se:cdpVersion: 99.0.4844.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d1772f8e318ff682360ef1c66303478b]]>
+Command: [1b632be44b6606875a63550ee4c2cc7c, actions {actions=[org.openqa.selenium.interactions.Sequence@f5cf29b]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/sg/jzd_68rs71d...}, goog:chromeOptions: {debuggerAddress: localhost:54929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54929/devtoo..., se:cdpVersion: 99.0.4844.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b632be44b6606875a63550ee4c2cc7c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'Nurs-MacBook-Pro.local', ip: 'fe80:0:0:0:801:f43b:81c0:b388%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d1772f8e318ff682360ef1c66303478b, actions {actions=[org.openqa.selenium.interactions.Sequence@4d499d65]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/sg/jzd_68rs71d...}, goog:chromeOptions: {debuggerAddress: localhost:53608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53608/devtoo..., se:cdpVersion: 99.0.4844.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d1772f8e318ff682360ef1c66303478b
+Command: [1b632be44b6606875a63550ee4c2cc7c, actions {actions=[org.openqa.selenium.interactions.Sequence@f5cf29b]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/sg/jzd_68rs71d...}, goog:chromeOptions: {debuggerAddress: localhost:54929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54929/devtoo..., se:cdpVersion: 99.0.4844.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b632be44b6606875a63550ee4c2cc7c
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
 at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
 at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
@@ -111,9 +111,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'Nurs-MacBook-Pro.local', ip: 'fe80:0:0:0:801:f43b:81c0:b388%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d1772f8e318ff682360ef1c66303478b, findElement {using=xpath, value=//a[contains(text(), 'Dit is Cloudwise') and @class='sf-with-ul']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/sg/jzd_68rs71d...}, goog:chromeOptions: {debuggerAddress: localhost:53608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53608/devtoo..., se:cdpVersion: 99.0.4844.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d1772f8e318ff682360ef1c66303478b
+Command: [1b632be44b6606875a63550ee4c2cc7c, findElement {using=xpath, value=//a[contains(text(), 'Dit is Cloudwise') and @class='sf-with-ul']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/sg/jzd_68rs71d...}, goog:chromeOptions: {debuggerAddress: localhost:54929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54929/devtoo..., se:cdpVersion: 99.0.4844.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b632be44b6606875a63550ee4c2cc7c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -144,7 +144,7 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAlleCloudwisersPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.secondtask.testcases.CloudwisePageTest@418e7838]" started-at="2022-03-23T17:19:39 TRT" name="tearDown" finished-at="2022-03-23T17:19:40 TRT" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.secondtask.testcases.CloudwisePageTest@418e7838]" started-at="2022-03-23T18:31:12 TRT" name="tearDown" finished-at="2022-03-23T18:31:12 TRT" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

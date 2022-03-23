@@ -24,6 +24,10 @@ public class CloudwisePageTest extends TestBase {
 	}
 
 	@Test
+	public void clickDitIsCloudwiseTest() throws IOException {
+		cloudwisePage.clickDitIsCloudwise();
+	}
+	@Test
 	public void clickAlleCloudwisersPage() throws InterruptedException, IOException {
 		cloudwisePage.clickAlleCloudwisersBtn();
 	}
