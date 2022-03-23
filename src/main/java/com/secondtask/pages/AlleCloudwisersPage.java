@@ -67,7 +67,8 @@ public class AlleCloudwisersPage extends TestBase {
 							+ i + "]"));
 			TestUtil.moveToElement(departmentElement);
 			departmentElement.click();
-
+            
+		    
 			driver.findElement(By.xpath("(//span[contains(text(),'Wie zijn wij')])[" + i + "]")).click();
 
 			List<WebElement> employeeElementList = driver.findElements(By.tagName("h3"));

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.secondtask.testcases.AlleCloudwisersPageTest">
+      <class name="com.secondtask.testcases.CloudwisePageTest">
         <methods>
-          <include name="setUp"/>
+          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="duplicateEmployeesNames"/>
+          <include name="clickAlleCloudwisersPage"/>
         </methods>
-      </class> <!-- com.secondtask.testcases.AlleCloudwisersPageTest -->
+      </class> <!-- com.secondtask.testcases.CloudwisePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

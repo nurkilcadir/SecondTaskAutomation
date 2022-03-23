@@ -23,23 +23,26 @@ public class TestBase {
 			FileInputStream ip = new FileInputStream(
 					System.getProperty("user.dir") + "/src/main/java/com/secondtask/config/config.properties");
 			prop.load(ip);
-		} catch (FileNotFoundException e) {
+		} 
+		catch (FileNotFoundException e) {
 			e.printStackTrace();
-		} catch (IOException e) {
+		} 
+		catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 
 	@SuppressWarnings("deprecation")
 	public static void initialization() {
-
+		
 		String browserName = prop.getProperty("browser");
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		} else if (prop.getProperty("browser").equalsIgnoreCase("firefox")) {
+		} 
+		else if (prop.getProperty("browser").equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
